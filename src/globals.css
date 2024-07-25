@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-background text-foreground;
+		font-family: "Rubik", sans-serif;
+	}
+
+	a {
+		@apply text-secondary;
+	}
+
+	:root {
+		--background: #08080e;
+		--foreground: #ececec;
+		--primary: #4c4083;
+		--secondary: #605492;
+		--accent: #42413e;
+	}
+}
+
+.card-shadow {
+	box-shadow: 0 0 10px 5px var(--primary);
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-shadow:hover {
+	box-shadow: 0px 0px 25px 5px var(--primary);
+}
+
+.title {
+	color: var(--foreground);
+	font-family: "Platypi", sans-serif;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.subtitle {
+	color: var(--foreground);
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+
+.icon {
+	transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+	transform: scale(1.2);
+}
+
+.topnav-container {
+	z-index: 2;
+	display: flex;
+	position: fixed;
+	background-color: transparent;
+	left: 0;
+	right: 0;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+	transition: background-color 1s;
+}
+
+.hero-animation {
+	background: radial-gradient(circle, transparent 80%, #8a2be2b3 50%, #8a2be233 100%);
+	animation: glow 6s infinite alternate;
+}
+
+.hero-image {
+	z-index: 1;
+	height: 16rem;
+	width: 16rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	border-radius: 100%;
+	box-shadow: 0 0 10px 5px var(--primary);
+	animation: floating 3s infinite ease-in-out;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+}
+
+@keyframes floating {
+
+	0%,
+	100% {
+		transform: translate(0, 0px);
+	}
+
+	60% {
+		transform: translate(0, 10px);
+	}
+}
+
+@keyframes glow {
+	0% {
+		box-shadow: 0 0 60px 30px #8a2be233;
+	}
+
+	100% {
+		box-shadow: 0 0 120px 120px #8a2be280;
+	}
+}

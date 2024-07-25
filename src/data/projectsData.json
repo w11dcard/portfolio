@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Zephyr",
+		"imageSrc": "/projectImage.jpg",
+		"description": "Next.js weather app with geolocation and weather API integration, built with shadcn/ui components.",
+		"skills": ["Next.js", "React", "TypeScript", "shadcn/ui", "Tailwind CSS", "Node.js"],
+		"demo": "https://zephyr-weather.vercel.app/",
+		"source": "https://github.com/w11dcard/zephyr/"
+	},
+	{
+		"title": "To-Do List",
+		"imageSrc": "/projectImage.jpg",
+		"description": "Next.js website for managing to-dos, with CRUD and NextAuth support.",
+		"skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "NextAuth", "Prisma ORM"],
+		"demo": "https://wdc-todo.vercel.app/",
+		"source": "https://github.com/w11dcard/nextjs-todo-list/"
+	},
+	{
+		"title": "Snake Game",
+		"imageSrc": "/projectImage.jpg",
+		"description": "Next.js implementation of a simple Snake game.",
+		"skills": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+		"demo": "https://wdc-snake.vercel.app/",
+		"source": "https://github.com/w11dcard/nextjs-snake-game/"
+	}
+]
