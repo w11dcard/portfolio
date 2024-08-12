@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-background text-foreground;
+		font-family: "Rubik", sans-serif;
+	}
+
+	:root {
+		--background: #08080e;
+		--foreground: #ececec;
+		--primary: #4c4083;
+		--secondary: #605492;
+		--accent: #42413e;
+	}
+}
+
+.card-shadow {
+	box-shadow: 0 0 10px 2px var(--primary);
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-shadow:hover {
+	box-shadow: 0px 0px 25px 5px var(--primary);
+}
+
+.title {
+	color: var(--foreground);
+	font-family: "Platypi", sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.icon {
+	transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+	transform: scale(1.2);
+}
+
+.hero-background {
+	background: linear-gradient(330deg, var(--background) 50%, var(--primary) 90%, var(--secondary) 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+
+.hero-image {
+	height: auto;
+	width: 50%;
+	border-radius: 100%;
+	animation: floating 3s infinite ease-in-out;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2.5rem;
+	padding: 2rem;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+}
+
+@keyframes floating {
+
+	0%,
+	100% {
+		transform: translate(0, 0px);
+	}
+
+	60% {
+		transform: translate(0, 8px);
+	}
+}
