@@ -1,6 +1,8 @@
 export default function Hero() {
 	return (
-		<section className="p-8">
+		<section className="card-shadow p-8">
+			<div className="hero-background" />
+
 			<div className="mx-auto h-screen text-center">
 				<h2 className="text-3xl font-bold"></h2>
 			</div>
