@@ -6,7 +6,7 @@ export default function About() {
 		<div className="flex flex-col items-center justify-center text-center">
 			<strong className="title">About Me</strong>
 
-			<div className="m-8">
+			<div className="space-x-4 space-y-4 p-4">
 				{aboutData.map((section: aboutDataProps) => (
 					<div key={section.content}>
 						<p>{section.content}</p>
