@@ -16,5 +16,4 @@ export interface StackCardProps {
 
 export interface aboutDataProps {
 	content: string
-	divider: boolean
 }

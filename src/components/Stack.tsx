@@ -4,7 +4,7 @@ import { StackCardProps } from "../lib/types"
 
 export default function Stack() {
 	return (
-		<div className="flex flex-1 flex-col items-center justify-center text-center">
+		<div className="flex flex-col items-center justify-center text-center">
 			<strong className="title">Tech Stack</strong>
 
 			<div className="m-6 grid grid-cols-2 gap-6 lg:grid-cols-3">

@@ -3,14 +3,12 @@ import { aboutDataProps } from "../lib/types"
 
 export default function About() {
 	return (
-		<div className="text-center">
-			<div className="m-4">
-				<strong className="title">About Me</strong>
-			</div>
+		<div className="flex flex-col items-center justify-center text-center">
+			<strong className="title">About Me</strong>
 
 			<div className="m-8">
 				{aboutData.map((section: aboutDataProps) => (
-					<div>
+					<div key={section.content}>
 						<p>{section.content}</p>
 						<hr className="m-6 border-t border-accent" />
 					</div>
