@@ -6,7 +6,7 @@ export default function Footer() {
 		<footer id="footer" className="card-shadow footer-container">
 			<img src={logo} alt="Logo" className="icon" />
 
-			<div className="m-6 flex justify-center gap-4 text-secondary">
+			<div className="m-4 flex justify-center gap-4 text-secondary">
 				<a href="https://github.com/w11dcard">
 					<Icon icon="simple-icons:github" className="icon h-6 w-6" />
 				</a>

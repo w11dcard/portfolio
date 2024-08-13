@@ -7,11 +7,11 @@ export default function Projects() {
 		<div className="flex flex-col items-center justify-center text-center">
 			<strong className="title">Projects</strong>
 
-			<div className="space-x-8 space-y-8 p-4">
+			<div className="grid grid-cols-1 gap-8 p-4">
 				{projectsData.map((project: ProjectCardProps) => (
 					<div key={project.title} className="group relative mx-auto max-w-sm rounded-lg">
 						<div className="card-shadow relative overflow-hidden rounded-lg">
-							<img src={project.imageSrc} alt={project.title} className="h-48 w-full" />
+							<img src={project.imageSrc} alt={project.title} className="h-48 w-full object-cover" />
 
 							<div className="absolute inset-0 flex items-center justify-center gap-4 bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
 								<a href={project.source} target="_blank" rel="noopener noreferrer">
