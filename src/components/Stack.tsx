@@ -13,7 +13,6 @@ export default function Stack() {
 						<a href={item.link}>
 							<Icon icon={item.iconSrc} className="icon p-1 text-4xl text-foreground" />
 						</a>
-
 						<strong className="p-1 font-platypi font-semibold">{item.name}</strong>
 						<p className="text-xs">{item.description}</p>
 					</div>

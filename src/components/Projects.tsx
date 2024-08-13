@@ -5,9 +5,9 @@ import { ProjectCardProps } from "../lib/types"
 export default function Projects() {
 	return (
 		<div className="flex flex-col items-center justify-center text-center">
-			<strong className="title mb-8">Projects</strong>
+			<strong className="title">Projects</strong>
 
-			<div className="space-x-4 space-y-4 p-4">
+			<div className="space-x-8 space-y-8 p-4">
 				{projectsData.map((project: ProjectCardProps) => (
 					<div key={project.title} className="group relative mx-auto max-w-sm rounded-lg">
 						<div className="card-shadow relative overflow-hidden rounded-lg">
