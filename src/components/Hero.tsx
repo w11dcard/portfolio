@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react"
+import avatar from "/avatar.png"
 import heroImage from "/heroImage.png"
 
 export default function Hero() {
@@ -7,8 +8,9 @@ export default function Hero() {
 			<div className="hero-background" />
 
 			<div className="relative flex flex-col items-center gap-16 p-10 md:flex-row-reverse lg:gap-32">
-				<div className="flex w-full max-w-xl items-center justify-center md:w-1/2">
-					<img src={heroImage} alt="Matheus Mortari" className="hero-image card-shadow" />
+				<div className="relative flex w-full max-w-lg items-center justify-center md:w-1/2">
+					<img src={heroImage} alt="Hero" className="hero-image icon" />
+					<img src={avatar} alt="Avatar" className="hero-avatar card-shadow absolute bottom-0 right-0" />
 				</div>
 
 				<div className="flex max-w-3xl flex-col items-center text-center font-platypi md:items-start md:text-left">

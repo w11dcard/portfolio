@@ -3,10 +3,10 @@ import { aboutDataProps } from "../lib/types"
 
 export default function About() {
 	return (
-		<div className="flex flex-col items-center justify-center text-center">
+		<div id="about" className="flex flex-col items-center justify-center text-center">
 			<strong className="title">About Me</strong>
 
-			<div className="grid grid-cols-1 gap-8 p-4">
+			<div className="grid grid-cols-1 p-8">
 				{aboutData.map((section: aboutDataProps) => (
 					<div key={section.content}>
 						<p>{section.content}</p>

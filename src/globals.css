@@ -58,7 +58,13 @@
 
 .hero-image {
 	height: auto;
-	width: 50%;
+	width: 75%;
+}
+
+.hero-avatar {
+	background: var(--background);
+	height: auto;
+	width: 25%;
 	border-radius: 100%;
 	animation: floating 3s infinite ease-in-out;
 }
