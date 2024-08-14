@@ -2,25 +2,25 @@
 	{
 		"title": "Zephyr",
 		"imageSrc": "/projectImage.jpg",
-		"description": "Weather app with geolocation and weather API integration, built with Next.js and shadcn/ui.",
+		"description": "Next.js weather app built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui.",
 		"skills": ["Next.js", "React", "Node.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
-		"demo": "https://zephyr-weather.vercel.app/",
-		"source": "https://github.com/w11dcard/zephyr/"
+		"demo": "https://zephyr-weather.vercel.app",
+		"source": "https://github.com/w11dcard/zephyr"
 	},
 	{
 		"title": "To-Do List",
 		"imageSrc": "/projectImage.jpg",
-		"description": "To-do list management website with authentication support, built with Next.js.",
+		"description": "Simple to-do list website with authentication, built with Next.js, TypeScript, and Tailwind CSS.",
 		"skills": ["Next.js", "React", "Node.js", "NextAuth", "Prisma ORM", "TypeScript", "Tailwind CSS"],
-		"demo": "https://wdc-todo.vercel.app/",
-		"source": "https://github.com/w11dcard/nextjs-todo-list/"
+		"demo": "https://wdc-todo.vercel.app",
+		"source": "https://github.com/w11dcard/todo-list"
 	},
 	{
-		"title": "Snake Game",
+		"title": "MDash",
 		"imageSrc": "/projectImage.jpg",
-		"description": "Simple implementation of the classic Snake game using Next.js.",
-		"skills": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-		"demo": "https://wdc-snake.vercel.app/",
-		"source": "https://github.com/w11dcard/nextjs-snake-game/"
+		"description": "Simple markdown editor and preview website built with Vite and React.",
+		"skills": ["Vite", "React", "TypeScript", "Tailwind CSS", "Markdown"],
+		"demo": "https://mdash-live.vercel.app/",
+		"source": "https://github.com/w11dcard/mdash"
 	}
 ]
