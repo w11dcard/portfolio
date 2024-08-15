@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Zephyr",
-		"imageSrc": "/projectImage.jpg",
+		"imageSrc": "/project1.jpeg",
 		"description": "Next.js weather app built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui.",
 		"skills": ["Next.js", "React", "Node.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
 		"demo": "https://zephyr-weather.vercel.app",
@@ -9,7 +9,7 @@
 	},
 	{
 		"title": "To-Do List",
-		"imageSrc": "/projectImage.jpg",
+		"imageSrc": "/project2.jpeg",
 		"description": "Simple to-do list website with authentication, built with Next.js, TypeScript, and Tailwind CSS.",
 		"skills": ["Next.js", "React", "Node.js", "NextAuth", "Prisma ORM", "TypeScript", "Tailwind CSS"],
 		"demo": "https://wdc-todo.vercel.app",
@@ -17,10 +17,10 @@
 	},
 	{
 		"title": "MDash",
-		"imageSrc": "/projectImage.jpg",
+		"imageSrc": "/project3.jpeg",
 		"description": "Simple markdown editor and preview website built with Vite and React.",
 		"skills": ["Vite", "React", "TypeScript", "Tailwind CSS", "Markdown"],
-		"demo": "https://mdash-live.vercel.app/",
+		"demo": "https://mdash-live.vercel.app",
 		"source": "https://github.com/w11dcard/mdash"
 	}
 ]
