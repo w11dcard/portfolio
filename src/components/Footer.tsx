@@ -7,10 +7,10 @@ export default function Footer() {
 			<img src={logo} alt="Logo" className="icon" />
 
 			<div className="m-4 flex justify-center gap-4 text-secondary">
-				<a href="https://github.com/w11dcard">
+				<a href="https://github.com/matimortari">
 					<Icon icon="simple-icons:github" className="icon h-6 w-6" />
 				</a>
-				<a href="https://www.linkedin.com/in/matheus-mortari-19rt/">
+				<a href="https://www.linkedin.com/in/matheus-mortari-19rt">
 					<Icon icon="simple-icons:linkedin" className="icon h-6 w-6" />
 				</a>
 				<a href="mailto:matheus.felipe.19rt@gmail.com">

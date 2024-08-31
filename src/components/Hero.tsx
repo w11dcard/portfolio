@@ -21,7 +21,7 @@ export default function Hero() {
 					</p>
 
 					<div className="flex gap-4 py-2 text-secondary">
-						<a href="https://github.com/w11dcard">
+						<a href="https://github.com/matimortari">
 							<Icon icon="simple-icons:github" className="icon h-8 w-8" />
 						</a>
 						<a href="https://www.linkedin.com/in/matheus-mortari-19rt/">
