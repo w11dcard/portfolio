@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react"
 import { useEffect, useState } from "react"
 import logo from "/logo.png"
 
-export default function TopNav() {
+export default function Navbar() {
 	const [scrolled, setScrolled] = useState(false)
 
 	useEffect(() => {
