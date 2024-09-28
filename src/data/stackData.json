@@ -31,13 +31,13 @@
 	},
 	{
 		"name": "Prisma ORM",
-		"description": "Modern database toolkit and ORM for Node.js and TypeScript.",
+		"description": "Modern database toolkit and ORM for Node.js and TypeScript applications.",
 		"iconSrc": "simple-icons:prisma",
 		"link": "https://prisma.io"
 	},
 	{
 		"name": "Tailwind CSS",
-		"description": "CSS framework for rapidly building custom and responsive designs.",
+		"description": "Utility-first CSS framework for rapidly building custom and responsive designs.",
 		"iconSrc": "simple-icons:tailwindcss",
 		"link": "https://tailwindcss.com"
 	},
@@ -67,7 +67,7 @@
 	},
 	{
 		"name": "Git",
-		"description": "Distributed version control system for tracking code changes.",
+		"description": "Distributed version control system for tracking changes in source code.",
 		"iconSrc": "simple-icons:git",
 		"link": "https://git-scm.com"
 	}

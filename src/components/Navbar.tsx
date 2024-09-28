@@ -27,13 +27,13 @@ export default function Navbar() {
 			<div className="flex items-center justify-between px-4">
 				<img src={logo} alt="Logo" className="icon" />
 
-				<div className="flex flex-row items-center justify-center space-x-6 font-semibold text-foreground">
-					<a href="#about" className="flex flex-row items-center justify-center gap-2 hover:underline">
+				<div className="flex flex-row items-center justify-center gap-2 font-semibold text-foreground md:gap-6">
+					<a href="#about" className="flex flex-row items-center justify-center gap-1 hover:underline">
 						<Icon icon="material-symbols:person-pin-rounded" className="icon h-6 w-6" />
 						<p>About Me</p>
 					</a>
 
-					<a href="#footer" className="flex flex-row items-center justify-center gap-2 hover:underline">
+					<a href="#footer" className="flex flex-row items-center justify-center gap-1 hover:underline">
 						<Icon icon="material-symbols:chat-paste-go" className="icon h-6 w-6" />
 						<p>Contact</p>
 					</a>

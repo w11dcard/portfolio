@@ -7,7 +7,7 @@ export default function Stack() {
 		<div className="flex flex-col items-center justify-center text-center">
 			<strong className="title">Tech Stack</strong>
 
-			<div className="grid grid-cols-2 gap-6 p-4 lg:grid-cols-3">
+			<div className="grid grid-cols-2 gap-6 lg:grid-cols-3">
 				{stackData.map((item: StackCardProps) => (
 					<div key={item.name} className="card-shadow flex flex-col items-center rounded-lg p-2 text-center">
 						<a href={item.link}>

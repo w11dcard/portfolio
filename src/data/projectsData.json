@@ -8,6 +8,14 @@
 		"source": "https://github.com/matimortari/zephyr"
 	},
 	{
+		"title": "LinkSphere",
+		"imageSrc": "/project4.jpeg",
+		"description": "Link aggregator website with authentication built with Next.js, TypeScript, and Tailwind CSS.",
+		"skills": ["Next.js", "React", "Node.js", "TypeScript", "Tailwind CSS"],
+		"demo": "https://linksphere-live.vercel.app",
+		"source": "https://github.com/matimortari/linksphere"
+	},
+	{
 		"title": "To-Do List",
 		"imageSrc": "/project2.jpeg",
 		"description": "Simple to-do list website with authentication, built with Next.js, TypeScript, and Tailwind CSS.",
