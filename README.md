@@ -29,11 +29,11 @@ I am a full-stack web developer and computer science student at the University o
 - **Technologies Used:** Next.js, React, TypeScript, Tailwind CSS, Node.js, NextAuth, Prisma ORM.
 - **Links:** [Demo](https://wdc-todo.vercel.app) | [Source](https://github.com/matimortari/todo-list)
 
-### Snake Game
+### LinkSphere
 
-- **Description:** Simple markdown editor and preview website built with Vite and React.
-- **Technologies Used:** Next.js, React, TypeScript, Tailwind CSS, Markdown
-- **Links:** [Demo](https://mdash-live.vercel.app) | [Source](https://github.com/matimortari/mdash)
+- **Description:** Social media & link aggregator website, based on Linktree.
+- **Technologies Used:** Next.js, React, TypeScript, Tailwind CSS, Node.js, NextAuth, Prisma ORM.
+- **Links:** [Demo](https://linksphere-live.vercel.app) | [Source](https://github.com/matimortari/linksphere)
 
 ## 📬 Contact
 
