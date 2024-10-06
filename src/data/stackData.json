@@ -2,73 +2,73 @@
 	{
 		"name": "TypeScript",
 		"description": "Typed superset of the JavaScript programming language.",
-		"iconSrc": "simple-icons:typescript",
+		"icon": "simple-icons:typescript",
 		"link": "https://www.typescriptlang.org"
 	},
 	{
 		"name": "Node.js",
 		"description": "JavaScript server runtime environment for network applications.",
-		"iconSrc": "simple-icons:nodedotjs",
+		"icon": "simple-icons:nodedotjs",
 		"link": "https://nodejs.org"
 	},
 	{
 		"name": "React",
 		"description": "JavaScript front-end library for building dynamic user interfaces.",
-		"iconSrc": "simple-icons:react",
+		"icon": "simple-icons:react",
 		"link": "https://reactjs.org"
 	},
 	{
 		"name": "Next.js",
-		"description": "React framework for creating server-rendered web applications.",
-		"iconSrc": "simple-icons:nextdotjs",
+		"description": "Modern React framework for creating server-rendered web applications.",
+		"icon": "simple-icons:nextdotjs",
 		"link": "https://nextjs.org"
-	},
-	{
-		"name": "PostgreSQL",
-		"description": "Relational database management system with advanced features.",
-		"iconSrc": "simple-icons:postgresql",
-		"link": "https://www.postgresql.org"
-	},
-	{
-		"name": "Prisma ORM",
-		"description": "Modern database toolkit and ORM for Node.js and TypeScript applications.",
-		"iconSrc": "simple-icons:prisma",
-		"link": "https://prisma.io"
 	},
 	{
 		"name": "Tailwind CSS",
 		"description": "Utility-first CSS framework for rapidly building custom and responsive designs.",
-		"iconSrc": "simple-icons:tailwindcss",
+		"icon": "simple-icons:tailwindcss",
 		"link": "https://tailwindcss.com"
 	},
 	{
 		"name": "React Query",
-		"description": "Data fetching and state management library for React applications.",
-		"iconSrc": "simple-icons:reactquery",
+		"description": "Data-fetching library for React applications with server state management.",
+		"icon": "simple-icons:reactquery",
 		"link": "https://react-query.tanstack.com"
 	},
 	{
 		"name": "Playwright",
 		"description": "Testing and web browser automation library for web applications.",
-		"iconSrc": "simple-icons:playwright",
+		"icon": "simple-icons:playwright",
 		"link": "https://playwright.dev"
+	},
+	{
+		"name": "Prisma",
+		"description": "Modern database toolkit and ORM for Node.js and TypeScript applications.",
+		"icon": "simple-icons:prisma",
+		"link": "https://prisma.io"
+	},
+	{
+		"name": "PostgreSQL",
+		"description": "Relational database management system with advanced features.",
+		"icon": "simple-icons:postgresql",
+		"link": "https://www.postgresql.org"
 	},
 	{
 		"name": "Python",
 		"description": "Powerful and multipurpose high-level programming language.",
-		"iconSrc": "simple-icons:python",
+		"icon": "simple-icons:python",
 		"link": "https://www.python.org"
 	},
 	{
 		"name": "PowerShell",
 		"description": "Command-line shell and scripting language designed for Windows.",
-		"iconSrc": "simple-icons:powershell",
+		"icon": "simple-icons:powershell",
 		"link": "https://docs.microsoft.com/en-us/powershell"
 	},
 	{
 		"name": "Git",
 		"description": "Distributed version control system for tracking changes in source code.",
-		"iconSrc": "simple-icons:git",
+		"icon": "simple-icons:git",
 		"link": "https://git-scm.com"
 	}
 ]

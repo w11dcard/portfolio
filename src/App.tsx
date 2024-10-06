@@ -11,13 +11,13 @@ export default function App() {
 			<Navbar />
 			<Hero />
 
-			<main className="flex flex-1 flex-col md:flex-row">
-				<div className="flex flex-1 flex-col p-4">
+			<main className="flex flex-1 flex-col p-4 md:flex-row">
+				<div className="flex flex-1 flex-col">
 					<About />
 					<Stack />
 				</div>
 
-				<div className="flex flex-1 flex-col p-4">
+				<div className="flex flex-1 flex-col">
 					<Projects />
 				</div>
 			</main>

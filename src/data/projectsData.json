@@ -1,34 +1,53 @@
 [
 	{
-		"title": "Zephyr",
-		"imageSrc": "/project1.jpeg",
-		"description": "Next.js weather app built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui.",
-		"skills": ["Next.js", "React", "Node.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
-		"demo": "https://zephyr-weather.vercel.app",
-		"source": "https://github.com/matimortari/zephyr"
-	},
-	{
 		"title": "LinkSphere",
-		"imageSrc": "/project4.jpeg",
-		"description": "Link aggregator website with authentication built with Next.js, TypeScript, and Tailwind CSS.",
-		"skills": ["Next.js", "React", "Node.js", "TypeScript", "Tailwind CSS"],
-		"demo": "https://linksphere-live.vercel.app",
+		"description": "Link aggregator website with user authentication, inspired by Linktree. Created with Next.js, TypeScript, and Tailwind CSS.",
+		"skills": [
+			"Next.js",
+			"React",
+			"Node.js",
+			"NextAuth",
+			"Prisma",
+			"TypeScript",
+			"Tailwind CSS",
+			"Playwright",
+			"Vitest"
+		],
+		"preview": "https://linksphere-live.vercel.app",
 		"source": "https://github.com/matimortari/linksphere"
 	},
 	{
-		"title": "To-Do List",
-		"imageSrc": "/project2.jpeg",
-		"description": "Simple to-do list website with authentication, built with Next.js, TypeScript, and Tailwind CSS.",
-		"skills": ["Next.js", "React", "Node.js", "NextAuth", "Prisma ORM", "TypeScript", "Tailwind CSS"],
-		"demo": "https://wdc-todo.vercel.app",
-		"source": "https://github.com/matimortari/todo-list"
+		"title": "Zephyr",
+		"description": "Weather website built around the Open-Meteo API. Created with Next.js, TypeScript, and Tailwind CSS.",
+		"skills": [
+			"Next.js",
+			"React",
+			"Node.js",
+			"TypeScript",
+			"Tailwind CSS",
+			"Open-Meteo",
+			"shadcn/ui",
+			"Playwright",
+			"Vitest"
+		],
+		"preview": "https://zephyr-weather.vercel.app",
+		"source": "https://github.com/matimortari/zephyr"
 	},
 	{
-		"title": "MDash",
-		"imageSrc": "/project3.jpeg",
-		"description": "Simple markdown editor and preview website built with Vite and React.",
-		"skills": ["Vite", "React", "TypeScript", "Tailwind CSS", "Markdown"],
-		"demo": "https://mdash-live.vercel.app",
-		"source": "https://github.com/matimortari/mdash"
+		"title": "To-Do List",
+		"description": "Simple to-do list website with user authentication, built with Next.js, TypeScript, and Tailwind CSS.",
+		"skills": [
+			"Next.js",
+			"React",
+			"Node.js",
+			"NextAuth",
+			"Prisma",
+			"TypeScript",
+			"Tailwind CSS",
+			"Playwright",
+			"Vitest"
+		],
+		"preview": "https://wdc-todo.vercel.app",
+		"source": "https://github.com/matimortari/todo-list"
 	}
 ]

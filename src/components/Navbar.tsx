@@ -20,6 +20,7 @@ export default function Navbar() {
 
 	return (
 		<nav
+			id="navbar"
 			className={`fixed z-10 w-full rounded transition-colors duration-300 ${
 				scrolled ? "bg-primary" : "bg-transparent"
 			} ${window.innerWidth <= 768 ? "hidden" : ""}`}

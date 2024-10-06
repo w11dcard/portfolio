@@ -1,16 +1,15 @@
 export interface ProjectCardProps {
 	title: string
-	imageSrc: string
 	description: string
 	skills: string[]
-	demo: string
+	preview: string
 	source: string
 }
 
 export interface StackCardProps {
 	name: string
 	description: string
-	iconSrc: string
+	icon: string
 	link: string
 }
 
