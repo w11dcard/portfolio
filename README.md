@@ -6,9 +6,15 @@ Welcome to my web portfolio! This website showcases my projects and experiences 
 
 ## 🌐 About Me
 
-I am a full-stack web developer and computer science student at the University of Passo Fundo (UPF), currently based in Rio Grande do Sul, Brazil. I specialize in creating user-friendly interfaces with a big focus on elegant design and usability. I also have experience in back-end systems, integrating APIs and managing databases. I'm committed to staying updated on the industry trends and technologies while maintaining a foundation in more traditional tools. Beyond web development, I enjoy learning about topics such as software automation, data science, and machine learning. Outside of work, I'm passionate about music, films, and sports.
+I am a full-stack web developer and computer science student at the University of Passo Fundo (UPF), based in Rio Grande do Sul, Brazil.
+
+I specialize in creating user-friendly interfaces with a focus on elegant design and usability. I also have experience in back-end systems, integrating APIs and managing databases. I'm committed to staying updated on the industry trends and technologies while maintaining a foundation in more traditional tools. Beyond web development, I enjoy learning about topics such as software automation, data science, and machine learning.
+
+If you're looking for someone with strong problem-solving skills, who values both form and function in their craft, feel free to explore my work, and don't hesitate to reach out — I'm always seeking to connect, learn and collaborate!
 
 ## 📚 My Tech Stack
+
+These are the technologies I use the most in my projects:
 
 - **Programming Languages:** TypeScript, Python, PowerShell.
 - **Frontend:** React, Next.js, Tailwind CSS.
@@ -17,23 +23,25 @@ I am a full-stack web developer and computer science student at the University o
 
 ## 🛠️ My Projects
 
-### Zephyr
-
-- **Description:** Next.js weather app built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui.
-- **Technologies Used:** Next.js, React, TypeScript, shadcn/ui, Tailwind CSS, Node.js.
-- **Links:** [Demo](https://zephyr-weather.vercel.app) | [Source](https://github.com/matimortari/zephyr)
-
-### To-Do List
-
-- **Description:** Simple to-do list website with authentication, built with Next.js, TypeScript, and Tailwind CSS.
-- **Technologies Used:** Next.js, React, TypeScript, Tailwind CSS, Node.js, NextAuth, Prisma ORM.
-- **Links:** [Demo](https://wdc-todo.vercel.app) | [Source](https://github.com/matimortari/todo-list)
+Here are some of the projects I'm most proud of:
 
 ### LinkSphere
 
 - **Description:** Social media & link aggregator website, based on Linktree.
 - **Technologies Used:** Next.js, React, TypeScript, Tailwind CSS, Node.js, NextAuth, Prisma ORM.
 - **Links:** [Demo](https://linksphere-live.vercel.app) | [Source](https://github.com/matimortari/linksphere)
+
+### Zephyr
+
+- **Description:** Next.js weather app with Open-Meteo API integration.
+- **Technologies Used:** Next.js, React, TypeScript, shadcn/ui, Tailwind CSS, Node.js.
+- **Links:** [Demo](https://zephyr-weather.vercel.app) | [Source](https://github.com/matimortari/zephyr)
+
+### To-Do List
+
+- **Description:** Simple to-do list website with user authentication.
+- **Technologies Used:** Next.js, React, TypeScript, Tailwind CSS, Node.js, NextAuth, Prisma ORM.
+- **Links:** [Demo](https://wdc-todo.vercel.app) | [Source](https://github.com/matimortari/todo-list)
 
 ## 📬 Contact
 
