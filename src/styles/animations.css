@@ -1,0 +1,33 @@
+/* Keyframe animation for floating effect */
+@keyframes floating {
+	0%,
+	100% {
+		transform: translate(0, 0px);
+	}
+
+	60% {
+		transform: translate(0, 8px);
+	}
+}
+
+/* Keyframe animation for scrolling map */
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+/* Container for the scrolling map */
+.scrolling-map {
+	display: flex;
+	width: 200%;
+	animation: scroll 120s linear infinite;
+}
+
+/* Each image takes half the width of the container */
+.scrolling-map img {
+	width: 50%;
+}

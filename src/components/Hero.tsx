@@ -6,8 +6,14 @@ export default function Hero() {
 	return (
 		<div id="hero" className="card-shadow relative flex h-screen items-center justify-center">
 			<div className="hero-background" />
-			<div className="absolute inset-x-0 bottom-0 z-0 h-full opacity-25">
-				<img src="/map.png" alt="Background" className="h-full w-full object-cover" />
+
+			<div className="absolute inset-x-0 bottom-0 z-0 h-full overflow-hidden opacity-20">
+				<img src="/map.png" alt="Background" className="block h-full w-full object-cover md:hidden" />
+
+				<div className="scrolling-map">
+					<img src="/map.png" alt="Background" className="hidden h-full w-full object-cover md:block" />
+					<img src="/map.png" alt="Background" className="hidden h-full w-full object-cover md:block" />
+				</div>
 			</div>
 
 			<div className="relative flex flex-col items-center gap-10 p-4 md:flex-row-reverse md:gap-20">
