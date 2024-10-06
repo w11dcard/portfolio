@@ -9,7 +9,7 @@ export default function About() {
 			<div className="grid max-w-xl grid-cols-1">
 				{aboutData.map((section: aboutDataProps) => (
 					<div key={section.content}>
-						<p>{section.content}</p>
+						<p className="text-sm md:text-base">{section.content}</p>
 
 						<hr className="m-4 border-t border-accent opacity-50" />
 					</div>

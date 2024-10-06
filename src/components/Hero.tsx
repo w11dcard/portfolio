@@ -4,7 +4,7 @@ import heroImage from "/heroImage.png"
 
 export default function Hero() {
 	return (
-		<div id="hero" className="card-shadow relative flex h-screen items-center justify-center">
+		<div id="hero" className="card-shadow relative flex min-h-screen items-center justify-center">
 			<div className="hero-background" />
 
 			<div className="absolute inset-x-0 bottom-0 z-0 h-full overflow-hidden opacity-20">
@@ -22,7 +22,7 @@ export default function Hero() {
 					<img src={avatar} alt="Avatar" className="hero-avatar card-shadow absolute left-0 top-0 mx-12" />
 				</div>
 
-				<div className="flex flex-col items-center gap-4 p-4 text-center font-platypi md:w-6/12 md:items-start md:text-left">
+				<div className="flex flex-col items-center gap-4 p-4 text-center font-serif md:w-6/12 md:items-start md:text-left">
 					<h1 className="text-4xl font-bold md:text-7xl">Hi, I'm Matheus!</h1>
 					<h2 className="text-2xl font-bold md:text-4xl">I'm a full-stack developer.</h2>
 					<p className="max-w-md text-base md:text-xl">

@@ -10,8 +10,8 @@ const config = {
 				accent: "var(--accent)",
 			},
 			fontFamily: {
-				rubik: ["Rubik", "sans-serif"],
-				platypi: ["Platypi", "sans-serif"],
+				sans: ["Rubik", "sans-serif"],
+				serif: ["Platypi", "serif"],
 			},
 		},
 	},

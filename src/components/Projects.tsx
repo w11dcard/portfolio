@@ -11,7 +11,7 @@ export default function Projects() {
 				{projectsData.map((project: ProjectCardProps) => (
 					<div key={project.title} className="card-shadow max-w-md rounded-lg p-6">
 						<div className="flex flex-col items-center gap-2">
-							<strong className="font-platypi text-2xl font-semibold">{project.title}</strong>
+							<strong className="font-serif text-2xl font-semibold">{project.title}</strong>
 							<p className="my-2 text-sm">{project.description}</p>
 
 							<div className="flex flex-wrap items-center justify-center gap-1 text-center">
