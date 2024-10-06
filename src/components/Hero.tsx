@@ -10,22 +10,20 @@ export default function Hero() {
 				<img src="/map.png" alt="Background" className="h-full w-full object-cover" />
 			</div>
 
-			<div className="relative flex flex-col items-center p-4 md:flex-row-reverse lg:gap-32">
+			<div className="relative flex flex-col items-center gap-10 p-4 md:flex-row-reverse md:gap-20">
 				<div className="relative flex max-w-xl items-center justify-center md:w-6/12">
 					<img src={heroImage} alt="Hero" className="hero-image icon" />
 					<img src={avatar} alt="Avatar" className="hero-avatar card-shadow absolute left-0 top-0 mx-12" />
 				</div>
 
-				<div className="flex flex-col items-center gap-4 py-4 text-center font-platypi md:w-6/12 md:items-start md:text-left">
-					<h1 className="text-5xl font-bold md:text-6xl">Hi, I'm Matheus!</h1>
-					<h2 className="text-3xl font-bold md:text-4xl">I'm a full-stack developer.</h2>
-					<p className="max-w-md text-xl">
+				<div className="flex flex-col items-center gap-4 p-4 text-center font-platypi md:w-6/12 md:items-start md:text-left">
+					<h1 className="text-4xl font-bold md:text-7xl">Hi, I'm Matheus!</h1>
+					<h2 className="text-2xl font-bold md:text-4xl">I'm a full-stack developer.</h2>
+					<p className="max-w-md text-base md:text-xl">
 						This is my website, where you can learn about my work. Feel free to explore and connect!
 					</p>
 
-					<hr className="my-4 w-full border-t border-accent opacity-50" />
-
-					<div className="flex items-center justify-center gap-4 text-secondary">
+					<div className="my-6 flex items-center justify-center gap-4 text-secondary">
 						<a href="https://github.com/matimortari">
 							<Icon icon="simple-icons:github" className="icon h-8 w-8" />
 						</a>
